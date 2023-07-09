@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "quick-sand";
+  src: "https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Puddles&display=swap"; }
+
 * {
   padding: 0;
   margin: 0;
@@ -41,6 +45,17 @@ main section article div h3 {
   font-weight: bold;
   font-style: italic; }
 
+.carta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.card-body {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-size: 15px; }
+
 .article1 {
   display: flex;
   flex-direction: column;
@@ -51,19 +66,15 @@ main section article div h3 {
   width: 1000px;
   padding-bottom: 40px; }
 
-.epp {
-  font-size: 40px;
-  color: #0e0e0f; }
-
 .article2 {
-  font-size: 22px;
+  font-size: 18px;
   text-align: justify;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px; }
 
 .article2 p {
-  padding: 15px 15px; }
+  padding: 10px 10px; }
 
 .article2 li {
   display: block; }
@@ -88,15 +99,7 @@ main section article div h3 {
 
 .footer {
   background-color: black;
-  color: white;
-  height: 130px; }
-
-.footer li {
-  margin: 10px;
-  display: inline-block;
-  width: 65 px;
-  height: 15px;
-  padding: 10px; }
+  color: white; }
 
 span a {
   font-weight: bold;
@@ -107,8 +110,8 @@ span a {
   grid-template-areas: "slot1 slot4 slot7" "slot2 slot5 slot8" "slot3 slot6 slot9" "slot10 slot10 slot10";
   grid-template-rows: auto;
   justify-items: center;
-  font-size: 15px;
-  color: white; }
+  color: white;
+  margin: auto; }
 
 .quienes {
   grid-area: slot1; }
@@ -155,11 +158,17 @@ span a {
   text-decoration: underline;
   font-style: italic; }
 
-#container {
-  width: 1500px; }
+.container {
+  width: auto; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
 
 .iram3610 {
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .iram3610 p {
   width: 1500px; }
@@ -185,6 +194,6 @@ th {
   font-weight: bold;
   padding-left: 2px; }
 
-@font-face {
-  font-family: "quick-sand";
-  src: "https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Puddles&display=swap"; }
+h1, h2, h3, h4, h5, h6 {
+  font-size: 30px;
+  font-weight: bold; }
