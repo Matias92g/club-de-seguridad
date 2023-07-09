@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "quick-sand"; }
+
+.header {
+  box-shadow: 0px 5px 5px #565454; }
+
+.header img {
+  height: 175px;
+  margin-left: 45%; }
+
+.main nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.enlace-nav {
+  color: black;
+  text-decoration: none; }
+
+main {
+  height: auto; }
+
+.main li {
+  margin: 10px;
+  display: inline-block;
+  height: 25px; }
+
+main section article div ul li {
+  padding: 15px;
+  margin: 20px; }
+
+main section article div ul li span {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic; }
+
+main section article div h3 {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic; }
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center; }
+
+.article1 img {
+  width: 1200px;
+  padding-bottom: 40px; }
+
+.epp {
+  font-size: 40px;
+  color: #0e0e0f; }
+
+.article2 {
+  font-size: 22px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px; }
+
+.article2 p {
+  padding: 15px 15px; }
+
+.article2 li {
+  display: block; }
+
+.article2 iframe {
+  width: 500px;
+  height: 350px; }
+
+.article2-div-calzado {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center; }
+
+.article2 div img {
+  width: 300px;
+  padding-left: 60px; }
+
+.article2 p img {
+  width: 300px;
+  padding-left: 60px; }
+
+.footer {
+  background-color: black;
+  font-size: 10px;
+  color: white; }
+
+.footer li {
+  margin: 10px;
+  display: inline-block;
+  width: 65 px;
+  height: 15px;
+  padding: 10px; }
+
+.enlace-footer {
+  color: white; }
+
+span a {
+  font-weight: bold;
+  color: white; }
+
+.div-cascos {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center; }
+
+.div-cascos img {
+  height: 200px; }
+
+.section-equipos-respiratorios ul li {
+  padding-bottom: 60px;
+  height: 40px; }
+
+.section-equipos-respiratorios ul li span {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic; }
+
+#container {
+  width: 1500px; }
+
+.iram3610 {
+  display: flex; }
+
+.iram3610 p {
+  width: 1500px; }
+
+.img-ocular {
+  width: 1200px;
+  padding-left: 100px; }
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+table {
+  border-collapse: collapse;
+  padding-bottom: 5px; }
+
+th, td {
+  border: solid 2px black; }
+
+th {
+  background-color: #666666;
+  font-weight: bold;
+  padding-left: 2px; }
+
+@font-face {
+  font-family: "quick-sand";
+  src: "https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Puddles&display=swap"; }

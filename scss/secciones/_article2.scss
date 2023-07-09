@@ -1,0 +1,34 @@
+.article2 {
+    font-size: 22px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+.article2 p{
+    padding: 15px 15px;
+}
+.article2 li {
+    display: block;
+}
+
+.article2 iframe {
+    width: 500px;
+    height: 350px;
+}
+.article2-div-calzado {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.article2 div img {
+    width: 300px;
+    padding-left: 60px;
+}
+
+.article2 p img {
+    width: 300px;
+    padding-left: 60px;
+}
