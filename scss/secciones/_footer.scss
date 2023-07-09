@@ -1,7 +1,7 @@
 .footer {
     background-color: black;
-    font-size: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
+    height: 130px;
 }
 
 .footer li {
@@ -12,11 +12,45 @@
     padding: 10px;
 }
 
-.enlace-footer {
-    color: white;
-}
-
 span a {
     font-weight: bold;
-    color: white;
+    color: rgb(255, 0, 0);
+}
+.footer-grid{ 
+    display: grid;
+    grid-template-areas:    "slot1 slot4 slot7"
+                            "slot2 slot5 slot8"
+                            "slot3 slot6 slot9"
+                            "slot10 slot10 slot10";
+    grid-template-rows: auto;
+    justify-items: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    }
+.quienes{
+    grid-area: slot1;
+    }
+.contacto {
+    grid-area: slot2;
+    }
+.preguntas {
+    grid-area: slot3;
+    }
+.requisitros {
+    grid-area: slot4;
+    }
+.estudios {
+    grid-area: slot5;
+}
+.capacitaciones {
+    grid-area: slot6;
+}
+.asistencia {
+    grid-area: slot7;
+}
+.inspeccion {
+    grid-area: slot8;
+}
+.derechos{
+    grid-area: slot10;
 }
