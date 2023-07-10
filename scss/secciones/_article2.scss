@@ -10,7 +10,9 @@
     padding: 10px 10px;
 }
 .article2 li {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
 }
 
 .article2 iframe {

@@ -19,11 +19,28 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px){
+    #banner {
+        width: 100%
+    }
+    #nav-list{
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+        padding: none;
+    }
+    .footer {
+        font-size: small;
+    }
+    .carta{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .iram3610 {
+        display: flex;
+        flex-direction: column;
+    }
+    .iram3610 p {
+        width: 100%;
+    }
+}
