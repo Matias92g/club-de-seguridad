@@ -8,41 +8,64 @@ span a {
     font-weight: bold;
     color: rgb(255, 0, 0);
 }
-.footer-grid{ 
+
+.footer-grid {
     display: grid;
-    grid-template-areas:    "slot1 slot4 slot7"
-                            "slot2 slot5 slot8"
-                            "slot3 slot6 slot9"
-                            "slot10 slot10 slot10";
+    grid-template-areas: "slot1 slot4 slot7"
+        "slot2 slot5 slot8"
+        "slot3 slot6 slot9"
+        "slot10 slot10 slot10";
     grid-template-rows: auto;
     justify-items: center;
     color: rgb(255, 255, 255);
     margin: auto;
-    }
-.quienes{
+}
+
+.quienes {
     grid-area: slot1;
-    }
+}
+
 .contacto {
     grid-area: slot2;
-    }
+}
+
 .preguntas {
     grid-area: slot3;
-    }
+}
+
 .requisitros {
     grid-area: slot4;
-    }
+}
+
 .estudios {
     grid-area: slot5;
 }
+
 .capacitaciones {
     grid-area: slot6;
 }
+
 .asistencia {
     grid-area: slot7;
 }
+
 .inspeccion {
     grid-area: slot8;
 }
-.derechos{
+
+.derechos {
     grid-area: slot10;
+}
+
+body {
+    .footer {
+        .footer-grid {
+            div {
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }

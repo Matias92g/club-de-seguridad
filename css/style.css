@@ -9,7 +9,8 @@
 
 .header {
   box-shadow: 0px 5px 5px #565454;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 10px; }
 
 .header img {
   height: 175px;
@@ -84,23 +85,94 @@ main section article div h3 {
   flex-direction: column;
   padding: 3px; }
 
-.article2 iframe {
-  width: 500px;
-  height: 350px; }
+.article2-div-prot-respi {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly; }
 
-.article2-div-calzado {
+.article2 div img {
+  width: 150px; }
+
+.article2 p img {
+  width: 300px;
+  padding-left: 60px; }
+
+.article2 #videoepp {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  padding: 0; }
+
+.article2 iframe {
+  width: 50%;
+  height: 100%; }
+
+.article2 .title {
+  border: solid black 1px;
+  text-align: center;
+  margin: 10px; }
+
+.article2 div .card {
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+
+body main section article .prot-ocular li {
+  padding-left: 50px;
+  font-weight: bold; }
+
+.div-cascos {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center; }
 
-.article2 div img {
-  width: 300px;
-  padding-left: 60px; }
+.div-cascos img {
+  height: 200px; }
 
-.article2 p img {
-  width: 300px;
-  padding-left: 60px; }
+.section-equipos-respiratorios ul li span {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic; }
+
+.container {
+  width: auto; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+
+.iram3610 {
+  display: flex;
+  align-items: center; }
+
+.iram3610 p {
+  width: 1500px; }
+
+.img-ocular {
+  width: 1200px;
+  padding-left: 100px; }
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+table {
+  border-collapse: collapse;
+  padding-bottom: 5px; }
+
+th, td {
+  border: solid 2px black; }
+
+th {
+  background-color: #666666;
+  font-weight: bold;
+  padding-left: 2px; }
 
 .footer {
   background-color: black;
@@ -146,59 +218,9 @@ span a {
 .derechos {
   grid-area: slot10; }
 
-.div-cascos {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center; }
-
-.div-cascos img {
-  height: 200px; }
-
-.section-equipos-respiratorios ul li {
-  padding-bottom: 60px;
-  height: 40px; }
-
-.section-equipos-respiratorios ul li span {
-  font-weight: bold;
-  text-decoration: underline;
-  font-style: italic; }
-
-.container {
-  width: auto; }
-
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start; }
-
-.iram3610 {
-  display: flex;
-  align-items: center; }
-
-.iram3610 p {
-  width: 1500px; }
-
-.img-ocular {
-  width: 1200px;
-  padding-left: 100px; }
-
-.section1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-table {
-  border-collapse: collapse;
-  padding-bottom: 5px; }
-
-th, td {
-  border: solid 2px black; }
-
-th {
-  background-color: #666666;
-  font-weight: bold;
-  padding-left: 2px; }
+body .footer .footer-grid div a {
+  color: white;
+  text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
@@ -221,4 +243,16 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column; }
   .iram3610 p {
-    width: 100%; } }
+    width: 100%; }
+  .article2-div-prot-respi {
+    display: flex;
+    flex-wrap: wrap; }
+  .img-ocular {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  body main section article .prot-ocular {
+    display: flex;
+    justify-content: space-evenly; }
+    body main section article .prot-ocular li {
+      font-weight: bold; } }

@@ -8,12 +8,12 @@
 @import "./secciones/main-index";
 @import "./secciones/article1";
 @import "./secciones/article2";
-@import "./secciones/footer";
 @import "./secciones/cascos";
 @import "./secciones/equipos-respiratorios";
 @import "./secciones/id_container";
 @import "./secciones/iram3610";
 @import "./secciones/seg-ocular";
+@import "./secciones/footer";
 h1,h2,h3,h4,h5,h6{
     font-size: 30px;
     font-weight: bold;
@@ -42,5 +42,29 @@ h1,h2,h3,h4,h5,h6{
     }
     .iram3610 p {
         width: 100%;
+    }
+    .article2-div-prot-respi{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img-ocular{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        main{
+            section{
+                article{
+                    .prot-ocular{
+                        display: flex;
+                        justify-content: space-evenly;
+                        li{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -21,31 +21,47 @@
     </header>
 
     <main class="main">
-        <nav id="Navbar">
-            <ul id="nav-list">
-                <li><a class="enlace-nav" href="./index.html">Inicio</a></li>
-                <li><a class="enlace-nav" href="./pages/seg-calzado.html">Calzado de Seguridad</a></li>
-                <li><a class="enlace-nav" href="./pages/seg-craneana.html">Protección Craneana</a></li>
-                <li><a class="enlace-nav" href="./pages/seg-ocular.html">Protección Ocular</a></li>
-                <li><a class="enlace-nav" href="./pages/seg-respiratoria.html">Protección Respiratoria</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/seg-calzado.html">Calzado de Seguridad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/seg-craneana.html">Protección Craneana</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/seg-ocular.html">Protección Ocular</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/seg-respiratoria.html" >Protección Respiratoria</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <section>
             <article class="article1">
                 <h1 class="epp">Elemento de Protección Personal</h1>
-                <img id="banner" src="https://i0.wp.com/www.prosalud.me/wp-content/uploads/2022/09/equipo-de-seguridad-industrial-.jpeg?w=800&ssl=1"
+                <img id="banner"
+                    src="https://i0.wp.com/www.prosalud.me/wp-content/uploads/2022/09/equipo-de-seguridad-industrial-.jpeg?w=800&ssl=1"
                     alt="Elementos de Protección Personal">
             </article>
         </section>
         <section>
             <article class=article2>
-                <h2>Que es un Elemento de Protección Personal?</h2>
+                <h2 class="title">Que es un Elemento de Protección Personal?</h2>
                 <p>EPP (Equipo de Protección Personal) por sus siglas en español, es un tipo de ropa o
                     equipo diseñado para reducir la exposición de los empleados a peligros químicos, biológicos y
                     físicos cuando se encuentran en un lugar de trabajo. Se utiliza para proteger a los empleados cuando
                     los controles de ingeniería y administrativos no son factibles para reducir los riesgos a niveles
                     aceptables.</h3>
-                <h3> Por qué es importante utilizar EPP?</h3>
+                <h3 class="title"> Por qué es importante utilizar EPP?</h3>
                 <p>Hacer que el lugar de trabajo sea seguro incluye facilitar instrucciones, prever
                     procedimientos,
                     impartir formación y proporcionar supervisión para alentar a las personas a trabajar con seguridad y
@@ -61,10 +77,12 @@
                     <li>La piel (por ejemplo, por contacto con materiales corrosivos), y</li>
                     <li>El cuerpo (por ejemplo, por exposición a temperaturas de calor o frío extremos).</li>
                 </ul>
-                <iframe src="https://www.youtube.com/embed/HQXfZJF0Vag" title="Elementos de protección personal"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <div id="videoepp">
+                    <iframe class="videoepp" src="https://www.youtube.com/embed/HQXfZJF0Vag"
+                        title="Elementos de protección personal" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
             </article>
         </section>
     </main>
@@ -79,7 +97,9 @@
             <div class="capacitaciones"><a href="foot6">Capacitaciones</a></div>
             <div class="asistencia"><a href="foot7">Asistencia técnica</a></div>
             <div class="inspeccion"><a href="foot8">Inspección de obra.</a></div>
-            <div class="derechos"><p>Todos los derechos reservados al autor</p></div>
+            <div class="derechos">
+                <p>Todos los derechos reservados al autor</p>
+            </div>
         </div>
         <span><a href="./index.html">Ir Arriba</a></span>
     </footer>
