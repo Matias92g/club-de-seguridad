@@ -14,52 +14,67 @@
 @import "./secciones/iram3610";
 @import "./secciones/seg-ocular";
 @import "./secciones/footer";
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 30px;
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     #banner {
         width: 100%
     }
-    #nav-list{
+
+    #nav-list {
         flex-wrap: nowrap;
         width: 100%;
         align-items: center;
         padding: none;
     }
+
     .footer {
         font-size: small;
     }
-    .carta{
+
+    .carta {
         display: flex;
         flex-wrap: wrap;
     }
+
     .iram3610 {
         display: flex;
         flex-direction: column;
+
+        p {
+            width: 100%;
+        }
     }
-    .iram3610 p {
-        width: 100%;
-    }
-    .article2-div-prot-respi{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .img-ocular{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        main{
-            section{
-                article{
-                    .prot-ocular{
-                        display: flex;
-                        justify-content: space-evenly;
-                        li{
+
+    .article2 {
+        div {
+            .prot-respi {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+    .img-ocular {
+            width: 95%;
+        }
+
+        body {
+            main {
+                section {
+                    article {
+                        .prot-ocular {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
                             font-weight: bold;
                         }
                     }

@@ -11,10 +11,10 @@
   box-shadow: 0px 5px 5px #565454;
   width: 100%;
   margin-bottom: 10px; }
-
-.header img {
-  height: 175px;
-  margin-left: 45%; }
+  .header .logo-header {
+    height: 175px;
+    display: flex;
+    justify-content: center; }
 
 #nav-list {
   display: flex;
@@ -67,7 +67,7 @@ main section article div h3 {
   align-items: center; }
 
 .article1 img {
-  width: 1000px;
+  width: 70%;
   padding-bottom: 40px; }
 
 .article2 {
@@ -112,17 +112,24 @@ main section article div h3 {
 .article2 .title {
   border: solid black 1px;
   text-align: center;
-  margin: 10px; }
+  margin: 10px;
+  background-color: #c4c4c4;
+  border-radius: 5px; }
 
 .article2 div .card {
   margin: 7px;
   display: flex;
   align-items: center;
-  text-align: center; }
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000000, -2px -2px 4px #ffffff; }
 
-body main section article .prot-ocular li {
-  padding-left: 50px;
-  font-weight: bold; }
+.article2 .ocular {
+  display: flex;
+  justify-content: center; }
+  .article2 .ocular .img-ocular {
+    width: 75%;
+    margin: 25px; }
 
 .div-cascos {
   display: flex;
@@ -153,9 +160,8 @@ body main section article .prot-ocular li {
 .iram3610 p {
   width: 1500px; }
 
-.img-ocular {
-  width: 1200px;
-  padding-left: 100px; }
+.ocular img {
+  width: 70%; }
 
 .section1 {
   display: flex;
@@ -222,7 +228,12 @@ body .footer .footer-grid div a {
   color: white;
   text-decoration: none; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 30px;
   font-weight: bold; }
 
@@ -242,17 +253,15 @@ h1, h2, h3, h4, h5, h6 {
   .iram3610 {
     display: flex;
     flex-direction: column; }
-  .iram3610 p {
-    width: 100%; }
-  .article2-div-prot-respi {
+    .iram3610 p {
+      width: 100%; }
+  .article2 div .prot-respi {
     display: flex;
     flex-wrap: wrap; }
-  .img-ocular {
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-  body main section article .prot-ocular {
+  .article2 .img-ocular {
+    width: 95%; }
+  .article2 body main section article .prot-ocular {
     display: flex;
-    justify-content: space-evenly; }
-    body main section article .prot-ocular li {
-      font-weight: bold; } }
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold; } }

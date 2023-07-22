@@ -52,7 +52,15 @@
         border: solid black 1px;
         text-align: center;
         margin: 10px;
+        background-color: #c4c4c4;
+        border-radius: 5px;
     }
+}
+
+@mixin carta($radius , $eje ) {
+    border-radius: $radius;
+    box-shadow: $eje $eje ($eje*2) #000000,
+        (-$eje) (-$eje) ($eje*2) #ffffff;
 }
 
 .article2 {
@@ -62,21 +70,18 @@
             display: flex;
             align-items: center;
             text-align: center;
-        }
-    }
-}
-body{
-    main{
-        section{
-            article{
-                .prot-ocular{
-                    li{
-                        padding-left: 50px;
-                        font-weight: bold;
-                    }
-                }
-            }
+            @include carta(10px, 2px)
         }
     }
 }
 
+.article2{
+    .ocular{
+        display: flex;
+        justify-content: center;
+        .img-ocular{
+            width: 75%;
+            margin: 25px;          
+        }
+    }
+}
