@@ -291,4 +291,7 @@ h6 {
   #videoepp {
     width: 100vw; }
     #videoepp .videoepp {
-      width: 90%; } }
+      width: 100%; }
+  .container {
+    display: flex;
+    flex-direction: column; } }
