@@ -1,19 +1,20 @@
 .div-cascos {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+
+    .div-cascos img {
+        height: 200px;
+        transition: all 1s;
+    }
 }
 
-.div-cascos img {
-    height: 200px;
-    transition: all 1s;
-}
-
-.img-casco{
+.img-casco {
     transition-timing-function: linear;
 }
-.img-casco:hover{
+
+.img-casco:hover {
     width: 300px;
     height: 300px;
 }

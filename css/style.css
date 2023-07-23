@@ -9,10 +9,10 @@
 
 .header {
   box-shadow: 0px 5px 5px #565454;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 10px; }
   .header .logo-header {
-    height: 175px;
+    height: 20vh;
     display: flex;
     justify-content: center;
     animation-name: animar-logo;
@@ -77,10 +77,9 @@ main section article div h3 {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center; }
-
-.article1 img {
-  width: 70%;
-  padding-bottom: 40px; }
+  .article1 .article1 img {
+    width: 70%;
+    padding-bottom: 40px; }
 
 .article2 {
   font-size: 18px;
@@ -117,8 +116,9 @@ main section article div h3 {
   height: 350px; }
 
 .article2 iframe {
-  width: 50%;
+  width: 50vw;
   height: 100%;
+  border: solid grey;
   border-radius: 1%; }
 
 .article2 .title {
@@ -138,13 +138,12 @@ main section article div h3 {
 
 .div-cascos {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly; }
-
-.div-cascos img {
-  height: 200px;
-  transition: all 1s; }
+  .div-cascos .div-cascos img {
+    height: 200px;
+    transition: all 1s; }
 
 .img-casco {
   transition-timing-function: linear; }
@@ -170,25 +169,21 @@ main section article div h3 {
   font-style: italic; }
 
 .container {
-  width: auto; }
-
-.container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start; }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center; }
 
 .iram3610 {
   display: flex;
   align-items: center; }
-
-.iram3610 p {
-  width: 1500px; }
+  .iram3610 p {
+    width: 75vw; }
 
 .article2 .ocular {
   display: flex;
   justify-content: center; }
   .article2 .ocular .img-ocular {
-    width: 75%;
+    width: 75vw;
     margin: 25px; }
 
 .section1 {
@@ -292,4 +287,8 @@ h6 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-weight: bold; } }
+    font-weight: bold; }
+  #videoepp {
+    width: 100vw; }
+    #videoepp .videoepp {
+      width: 90%; } }
