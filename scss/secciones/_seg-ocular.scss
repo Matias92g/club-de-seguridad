@@ -1,5 +1,12 @@
-.ocular img{
-    width: 70%;
+.article2{
+    .ocular{
+        display: flex;
+        justify-content: center;
+        .img-ocular{
+            width: 75%;
+            margin: 25px;          
+        }
+    }
 }
 .section1 {
     display: flex;

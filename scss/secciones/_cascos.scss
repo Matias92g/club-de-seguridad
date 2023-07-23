@@ -2,10 +2,31 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .div-cascos img {
     height: 200px;
-    
+    transition: all 1s;
+}
+
+.img-casco{
+    transition-timing-function: linear;
+}
+.img-casco:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.span-casco {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.span-casco:hover {
+    background-color: #c4c4c478;
+    font-weight: bold;
+    color: rgb(47, 0, 255);
+    text-decoration: underline;
+    text-transform: uppercase;
 }

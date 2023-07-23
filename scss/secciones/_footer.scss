@@ -1,12 +1,12 @@
 .footer {
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-image:linear-gradient(#c4c4c4,black);
     width: 100%;
+    margin-top: 5px;
 }
 
 span a {
     font-weight: bold;
-    color: rgb(255, 0, 0);
+    color: #4f3be9;
 }
 
 .footer-grid {
@@ -17,7 +17,7 @@ span a {
         "slot10 slot10 slot10";
     grid-template-rows: auto;
     justify-items: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: auto;
 }
 
