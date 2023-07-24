@@ -15,19 +15,59 @@
 @import "./secciones/seg-ocular";
 @import "./secciones/footer";
 
-h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
-    font-size: 30px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 @media screen and (max-width: 768px) {
+    @import "./utilidades/reset";
+
+    main {
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+
+            .article2 {
+                width: 95vw;
+                padding-left: 5px;
+                padding-right: 5px;
+
+                div {
+                    .prot-respi {
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                }
+
+                .img-ocular {
+                    width: 95%;
+                }
+
+                body {
+                    main {
+                        section {
+                            article {
+                                .prot-ocular {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-evenly;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     #banner {
-        width: 100%
+        width: 98%
     }
 
     #nav-list {
@@ -55,41 +95,17 @@ h6 {
         }
     }
 
-    .article2 {
-        div {
-            .prot-respi {
-                display: flex;
-                flex-wrap: wrap;
-            }
-        }
-
-    .img-ocular {
-            width: 95%;
-        }
-
-        body {
-            main {
-                section {
-                    article {
-                        .prot-ocular {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-evenly;
-                            font-weight: bold;
-                        }
-                    }
-                }
-            }
-        }
-    }
     #videoepp {
         width: 100vw;
-        .videoepp{
+
+        .videoepp {
             width: 100%;
         }
     }
-    .container{
+
+    .container {
         display: flex;
         flex-direction: column;
+        width: 90vw;
     }
 }

@@ -10,10 +10,11 @@
     padding: 10px 10px;
 }
 
-.article2 li {
-    display: flex;
-    flex-direction: column;
-    padding: 3px;
+.article2 {
+    .list-respiratoria{
+    list-style: none;
+    padding: 0px;
+    }
 }
 
 .article2-div-prot-respi {
@@ -55,6 +56,7 @@
         margin: 10px;
         background-color: #c4c4c4;
         border-radius: 5px;
+        font-size: 25px;
     }
 }
 

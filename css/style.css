@@ -41,25 +41,13 @@
   color: black;
   text-decoration: none; }
 
-main {
-  height: auto; }
-
-.main li {
-  margin: 10px; }
-
-main section article div ul li {
-  padding: 15px;
-  margin: 20px; }
-
 main section article div ul li span {
   font-weight: bold;
   text-decoration: underline;
   font-style: italic; }
 
-main section article div h3 {
-  font-size: 28px;
-  font-weight: bold;
-  font-style: italic; }
+.lista-main {
+  list-style: none; }
 
 .carta {
   display: flex;
@@ -91,10 +79,9 @@ main section article div h3 {
 .article2 p {
   padding: 10px 10px; }
 
-.article2 li {
-  display: flex;
-  flex-direction: column;
-  padding: 3px; }
+.article2 .list-respiratoria {
+  list-style: none;
+  padding: 0px; }
 
 .article2-div-prot-respi {
   display: flex;
@@ -126,7 +113,8 @@ main section article div h3 {
   text-align: center;
   margin: 10px;
   background-color: #c4c4c4;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-size: 25px; }
 
 .article2 div .card {
   margin: 7px;
@@ -172,6 +160,8 @@ main section article div h3 {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-items: center; }
+  .container div ul li {
+    list-style: disc; }
 
 .iram3610 {
   display: flex;
@@ -251,18 +241,37 @@ body .footer .footer-grid div a {
   color: white;
   text-decoration: none; }
 
-h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
-  font-size: 30px;
-  font-weight: bold; }
+  font-weight: lighter; }
 
 @media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "quick-sand"; }
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main section .article2 {
+      width: 95vw;
+      padding-left: 5px;
+      padding-right: 5px; }
+      main section .article2 div .prot-respi {
+        display: flex;
+        flex-wrap: wrap; }
+      main section .article2 .img-ocular {
+        width: 95%; }
+      main section .article2 body main section article .prot-ocular {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-weight: bold; }
   #banner {
-    width: 100%; }
+    width: 98%; }
   #nav-list {
     flex-wrap: nowrap;
     width: 100%;
@@ -278,20 +287,11 @@ h6 {
     flex-direction: column; }
     .iram3610 p {
       width: 100%; }
-  .article2 div .prot-respi {
-    display: flex;
-    flex-wrap: wrap; }
-  .article2 .img-ocular {
-    width: 95%; }
-  .article2 body main section article .prot-ocular {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-weight: bold; }
   #videoepp {
     width: 100vw; }
     #videoepp .videoepp {
       width: 100%; }
   .container {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    width: 90vw; } }
