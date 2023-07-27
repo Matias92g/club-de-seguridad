@@ -1,12 +1,10 @@
 @font-face {
   font-family: "quick-sand";
   src: "https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Puddles&display=swap"; }
-
 * {
   padding: 0;
   margin: 0;
   font-family: "quick-sand"; }
-
 .header {
   box-shadow: 0px 5px 5px #565454;
   width: 100vw;
@@ -17,17 +15,14 @@
     justify-content: center;
     animation-name: animar-logo;
     animation-duration: 1.5s; }
-
 @keyframes animar-logo {
   0% {
     background-color: black; }
   50% {
     background-color: grey; } }
-
 .main nav {
   display: flex;
   justify-content: center; }
-
 #nav-list {
   display: flex;
   flex-direction: row;
@@ -36,30 +31,24 @@
   width: 780px;
   margin: auto;
   list-style: none; }
-
 .enlace-nav {
   color: black;
   text-decoration: none; }
-
 main section article div ul li span {
   font-weight: bold;
   text-decoration: underline;
   font-style: italic; }
-
 .lista-main {
   list-style: none; }
-
 .carta {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
-
 .card-body {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   font-size: 15px; }
-
 .article1 {
   display: flex;
   flex-direction: column;
@@ -68,46 +57,37 @@ main section article div ul li span {
   .article1 .article1 img {
     width: 70%;
     padding-bottom: 40px; }
-
 .article2 {
   font-size: 18px;
   text-align: justify;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px; }
-
 .article2 p {
   padding: 10px 10px; }
-
 .article2 .list-respiratoria {
   list-style: none;
   padding: 0px; }
-
 .article2-div-prot-respi {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-evenly; }
-
 .article2 div img {
   width: 150px; }
-
 .article2 p img {
   width: 300px;
   padding-left: 60px; }
-
 .article2 #videoepp {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 350px; }
-
 .article2 iframe {
   width: 50vw;
   height: 100%;
   border: solid grey;
   border-radius: 1%; }
-
 .article2 .title {
   border: solid black 1px;
   text-align: center;
@@ -115,7 +95,6 @@ main section article div ul li span {
   background-color: #c4c4c4;
   border-radius: 5px;
   font-size: 25px; }
-
 .article2 div .card {
   margin: 7px;
   display: flex;
@@ -123,7 +102,6 @@ main section article div ul li span {
   text-align: center;
   border-radius: 10px;
   box-shadow: 2px 2px 4px #000000, -2px -2px 4px #ffffff; }
-
 .div-cascos {
   display: flex;
   flex-wrap: wrap;
@@ -132,121 +110,97 @@ main section article div ul li span {
   .div-cascos .div-cascos img {
     height: 200px;
     transition: all 1s; }
-
 .img-casco {
   transition-timing-function: linear; }
-
 .img-casco:hover {
   width: 300px;
   height: 300px; }
-
 .span-casco {
   font-style: italic;
   font-weight: bold; }
-
 .span-casco:hover {
   background-color: #c4c4c478;
   font-weight: bold;
   color: #2f00ff;
   text-decoration: underline;
   text-transform: uppercase; }
-
 .section-equipos-respiratorios ul li span {
   font-weight: bold;
   text-decoration: underline;
   font-style: italic; }
-
 .container {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-items: center; }
   .container div ul li {
     list-style: disc; }
-
 .iram3610 {
   display: flex;
   align-items: center; }
   .iram3610 p {
     width: 75vw; }
-
 .article2 .ocular {
   display: flex;
   justify-content: center; }
   .article2 .ocular .img-ocular {
     width: 75vw;
     margin: 25px; }
-
 .section1 {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
 table {
   border-collapse: collapse;
   padding-bottom: 5px; }
-
 th, td {
   border: solid 2px black; }
-
 th {
   background-color: #666666;
   font-weight: bold;
   padding-left: 2px; }
-
 .footer {
   background-image: linear-gradient(#c4c4c4, black);
   width: 100%;
   margin-top: 5px; }
-
 span a {
   font-weight: bold;
   color: #4f3be9; }
-
 .footer-grid {
   display: grid;
-  grid-template-areas: "slot1 slot4 slot7" "slot2 slot5 slot8" "slot3 slot6 slot9" "slot10 slot10 slot10";
+  grid-template-areas: "slot1 slot4 slot7"
+ "slot2 slot5 slot8"
+ "slot3 slot6 slot9"
+ "slot10 slot10 slot10";
   grid-template-rows: auto;
   justify-items: center;
   color: black;
   margin: auto; }
-
 .quienes {
   grid-area: slot1; }
-
 .contacto {
   grid-area: slot2; }
-
 .preguntas {
   grid-area: slot3; }
-
 .requisitros {
   grid-area: slot4; }
-
 .estudios {
   grid-area: slot5; }
-
 .capacitaciones {
   grid-area: slot6; }
-
 .asistencia {
   grid-area: slot7; }
-
 .inspeccion {
   grid-area: slot8; }
-
 .derechos {
   grid-area: slot10; }
-
 body .footer .footer-grid div a {
   color: white;
   text-decoration: none; }
-
 h3,
 h4,
 h5,
 h6 {
   font-weight: lighter; }
-
 @media screen and (max-width: 768px) {
   * {
     padding: 0;

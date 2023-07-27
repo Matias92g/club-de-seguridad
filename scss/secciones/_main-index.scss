@@ -4,7 +4,6 @@
         justify-content: center;
     }
 }
-
 #nav-list {
     display: flex;
     flex-direction: row;
@@ -14,12 +13,10 @@
     margin: auto;
     list-style: none;
 }
-
 .enlace-nav {
     color: black;
     text-decoration: none;
 }
-
 main section article div ul li {
     span {
         font-weight: bold;
@@ -27,17 +24,14 @@ main section article div ul li {
         font-style: italic;
     }
 }
-
 .lista-main {
     list-style: none;
 }
-
 .carta {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-
 .card-body {
     display: flex;
     justify-content: flex-end;

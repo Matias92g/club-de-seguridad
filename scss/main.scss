@@ -1,8 +1,6 @@
 @font-face {
     font-family: "quick-sand";
-    src: ('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Puddles&display=swap');
-}
-
+    src: ('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Puddles&display=swap');}
 @import "./utilidades/reset";
 @import "./secciones/header";
 @import "./secciones/main-index";
@@ -21,7 +19,6 @@ h5,
 h6 {
     font-weight: lighter;
 }
-
 @media screen and (max-width: 768px) {
     @import "./utilidades/reset";
 
