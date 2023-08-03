@@ -240,6 +240,59 @@ body .footer .footer-grid div a {
   color: white;
   text-decoration: none; }
 
+.footer-contacto {
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.body-contacto {
+  background: radial-gradient(circle, #b8c0ff 0%, #435263 100%); }
+
+.formulario {
+  width: 40vw;
+  height: 500px;
+  background-image: linear-gradient(#c4c4c4, grey, #3d3d3d);
+  padding: 25px;
+  margin: auto;
+  border-radius: 5px;
+  border: solid 1px black;
+  box-shadow: 7px 13px 37px #000; }
+  .formulario .form-contacto {
+    text-align: center;
+    color: #3f3b84;
+    font-size: 35px; }
+  .formulario .campos-form {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    color: #3f3b84; }
+  .formulario .campos-form-mje {
+    padding: 0px 8px 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: grey;
+    color: #3f3b84;
+    height: 70px;
+    text-align: start; }
+  .formulario p {
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+    color: white; }
+    .formulario p a {
+      text-decoration: none;
+      color: white; }
+    .formulario p a:hover {
+      text-decoration: underline; }
+  .formulario .boton {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #3f3b84;
+    color: wheat;
+    border: #000; }
+
 h3,
 h4,
 h5,
