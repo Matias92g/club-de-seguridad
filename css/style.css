@@ -60,6 +60,10 @@ main section article div ul li span {
   flex-direction: column;
   font-size: 15px; }
 
+.nav-link:hover {
+  border: 1px solid black;
+  border-radius: 10px; }
+
 .article1 {
   display: flex;
   flex-direction: column;
@@ -349,4 +353,6 @@ h6 {
     width: 90vw; }
   .img-casco:hover {
     width: 175px;
-    height: 175px; } }
+    height: 175px; }
+  .formulario {
+    width: 70vw; } }
