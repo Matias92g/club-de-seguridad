@@ -258,21 +258,18 @@ body .footer .footer-grid div a {
 
 .body-contacto {
   background: #00d2ff;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3a7bd5, #00d2ff);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a7bd5, #00d2ff);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background: linear-gradient(to left, #3a7bd5, #00d2ff); }
 
 .conteiner-form {
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
   align-items: center; }
 
 .header-contacto div {
-  width: 38vw;
+  width: 40vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
   .header-contacto div img {
@@ -382,4 +379,17 @@ h6 {
     width: 175px;
     height: 175px; }
   .formulario {
-    width: 70vw; } }
+    width: 70vw; }
+  .conteiner-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .header-contacto div {
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .header-contacto div img {
+      height: 30vh; } }
