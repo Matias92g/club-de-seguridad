@@ -1,9 +1,35 @@
 .body-contacto {
-    background: radial-gradient(circle, rgb(184, 192, 255) 0%, rgba(67, 82, 99, 1) 100%);
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.conteiner-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-contacto {
+    div {
+        width: 38vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 55vh;
+        }
+    }
 }
 
 .formulario {
-    width: 40vw;
+    width: 30vw;
     height: 500px;
     background-image: linear-gradient(#c4c4c4, grey, rgb(61, 61, 61));
     padding: 25px;

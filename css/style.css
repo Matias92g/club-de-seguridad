@@ -64,6 +64,9 @@ main section article div ul li span {
   border: 1px solid black;
   border-radius: 10px; }
 
+.main {
+  background-image: url(../markus-spiske-UhaEs2FskUY-unsplash.jpg); }
+
 .article1 {
   display: flex;
   flex-direction: column;
@@ -245,14 +248,38 @@ body .footer .footer-grid div a {
   text-decoration: none; }
 
 .footer-contacto {
-  margin-top: 20px;
-  margin-left: 20px; }
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+  .footer-contacto a {
+    text-decoration: none;
+    color: black; }
 
 .body-contacto {
-  background: radial-gradient(circle, #b8c0ff 0%, #435263 100%); }
+  background: #00d2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a7bd5, #00d2ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a7bd5, #00d2ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.conteiner-form {
+  margin-top: 50px;
+  display: flex;
+  align-items: center; }
+
+.header-contacto div {
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .header-contacto div img {
+    height: 55vh; }
 
 .formulario {
-  width: 40vw;
+  width: 30vw;
   height: 500px;
   background-image: linear-gradient(#c4c4c4, grey, #3d3d3d);
   padding: 25px;
